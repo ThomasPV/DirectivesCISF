@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
     clickLog=[];
     display="";
-    index=0;
 
     toggle(){
 
@@ -16,13 +15,16 @@ export class AppComponent {
         this.clickLog.push(Date.now());
     }
     
-reset(){
-    
-    this.clickLog=[];
-    this.display="";
-    this.index=0; 
-    
-}
+    reset(){
+
+        this.clickLog=[];
+        this.display="";
+; 
+
+    }
+
+
+/*test 2*/
 
     
 }
