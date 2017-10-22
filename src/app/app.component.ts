@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
     clickLog=[];
     display="";
-    index=0;
 
     toggle(){
 
@@ -20,7 +19,8 @@ reset(){
     
     this.clickLog=[];
     this.display="";
-    this.index=0; 
+  
+  /*test -1*/
     
 }
 
