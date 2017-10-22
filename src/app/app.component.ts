@@ -26,3 +26,4 @@ export class AppComponent {
 
 /*test 2*/
 
+}
