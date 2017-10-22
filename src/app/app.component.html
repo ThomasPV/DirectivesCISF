@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+    <br><br>
+<button class="btn btn-info btn-md" (click)="toggle()">Display Details</button>
+<button class="btn btn-info btn-md" (click)="reset()">Clear Details</button>
+<hr>
+<p id="toggle" [ngStyle]="{display:display}">Hola..!!</p>
+<h2>Log Details</h2>
+<hr>
+<div *ngFor= "let log of clickLog; let i = index;" [ngClass]="{great: i > 4}">{{ log | date:"medium" }}</div>
+    </div>
+  </div>
+</div>
+
+
+
