@@ -14,7 +14,7 @@ export class AppComponent {
         this.display = this.display === '' ? 'none':'';
         this.clickLog.push(Date.now());
     }
-    
+
     reset(){
 
         this.clickLog=[];
@@ -26,5 +26,3 @@ export class AppComponent {
 
 /*test 2*/
 
-    
-}
